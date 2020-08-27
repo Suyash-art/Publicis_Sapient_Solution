@@ -1,38 +1,143 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 900px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(128, 128, 128, 0.212);
+}
+body{
+  display: flex;
+  
+  
+  justify-content: center;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+@media all and (max-width : 1440) and (max-width : 1024) {
+  .App{
+    display: flex;
+    
+  width: 700px;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.212);
+
+  
+  }
+  .year-button {
+    
+    display: flex;
+    margin-bottom:5px; 
+    height : 500px;
+    width: 130px;
+    margin-left: 8px;
+    
+    font-size: small;
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap ;
+    
+  }
+  .year-button p {
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width : 1024px) and (min-width : 700px) {
+  .App{
+    display: flex;
+    
+  width: 500px;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.212);
+
+  
   }
-  to {
-    transform: rotate(360deg);
+  .year-button {
+    
+    display: flex;
+    margin-bottom:5px; 
+    height : 500px;
+    width: 130px;
+    margin-left: 8px;
+    
+    font-size: small;
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap ;
+    
+  }
+  .year-button p {
+    display: flex;
+    justify-content: center;
   }
 }
+
+
+@media all and  (max-width :700px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+  width: 150px;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.212);
+
+  
+  }
+  .year-button {
+    
+    display: flex;
+    margin-bottom:5px; 
+    height : 500px;
+    width: 130px;
+    margin-left: 8px;
+    
+    font-size: small;
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap ;
+    
+  }
+  .year-button p {
+    display: flex;
+    justify-content: center;
+  }
+}
+  
+  p{
+    padding : 0px;
+  }
+
+  .year-button {
+    
+    display: flex;
+    
+    height : 500px;
+    width: 130px;
+    
+    font-size: small;
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap ;
+    
+  }
+  .year-button p {
+    display: flex;
+    justify-content: center;
+  }
+  .button-styling{
+    height : 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border:0  solid;
+    background-color: rgba(151, 255, 66, 0.493);
+   
+  }
+  .button-styling:active ,.button-styling:hover {
+    background-color: rgb(151, 255, 66);
+  }
+
